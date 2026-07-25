@@ -1,0 +1,99 @@
+<!-- PROGRAM 3
+
+Develop a html document to display admission form for a course (use all available form controls).
+
+File for student registration.html 
+
+-->
+<html>
+
+<head>
+    <title>Student regstration</title>
+</head>
+<style>
+    #grad {
+        background-image: linear-gradient(to right, #e9f1f7, #098eed);
+        margin-left: 300px;
+        width: 700px;
+    }
+</style>
+
+<body>
+    <div class="form-body" id="grad">
+        <table border="2" cellspacing="3" width="700px" cellpadding="8">
+            <form action="success.html" method="post" target="blank">
+                <th colspan="2" style="font-size: 20px;
+                    font-family: helvetica;"> STUDENT REGISTRATION FORM</th>
+                <tr>
+                    <td>Student Name</td>
+                    <td><input type="text" placeholder="Student name"></td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td>
+                    <td><input type="text" placeholder="Father's name"></td>
+                </tr>
+                <tr>
+                    <td>Mother's Name</td>
+                    <td><input type="text" placeholder="Mother's name"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea rows="6" cols="50">Enter your address</textarea></td>
+                </tr>
+                <tr>
+                    <td>Date of birth</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type=radio name="gender" value="Male">Male
+                        <input type=radio name="gender" value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="email" placeholder="Enter your email"></td>
+                </tr <tr>
+                <td>+2/PUC</td>
+                <td><input type=radio name="stream" value="Science">Science<br>
+                    <input type=radio name="stream" value="Commerce">Commerce<br>
+                    <input type=radio name="stream" value="Arts">Arts
+                </td>
+                </tr>
+                <tr>
+                    <td>Subjects</td>
+                    <td><select size="6" multiple>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Maths">Maths</option>
+                            <option value="Accountancy">Accountancy</option>
+                            <option value="Business">Business</option>
+                            <option value="Arts">Arts</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Interested in</td>
+                    <td><input type=checkbox name="Designing" value=on>Designing
+                        <input type=checkbox name="Coding" value=on>Coding
+                        <input type=checkbox name="Hacking" value=on>Hacking
+                    </td>
+                <tr>
+                    <td>Photo</td>
+                    <td><input type="file" name="pic" accept="image/*"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="Password" name="Password"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+</body>
+</div>
+
+</html>
