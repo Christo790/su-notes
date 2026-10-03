@@ -1,4 +1,6 @@
-//#include <iostream>
+//6. Write a C++ program for Towers of Hanoi.
+
+#include <iostream>
 using namespace std;
 
 void towers(int n, char start, char aux, char end) {
