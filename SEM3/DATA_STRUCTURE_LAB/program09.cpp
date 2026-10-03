@@ -1,3 +1,5 @@
+//9. Write a C++ program to sort the given list using the quick sort technique.
+
 #include <iostream>
 using namespace std;
 
