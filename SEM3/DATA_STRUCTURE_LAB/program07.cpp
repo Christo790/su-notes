@@ -1,3 +1,5 @@
+//7. Write a C++ program to implement dynamic array. Also find smallest and largest element.
+
 #include <iostream>
 using namespace std;
 
