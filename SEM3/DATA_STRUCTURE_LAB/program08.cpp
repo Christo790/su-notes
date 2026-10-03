@@ -1,3 +1,5 @@
+//8. Write a C++ program to sort the given list using the merge sort technique.
+
 #include <iostream>
 using namespace std;
 
