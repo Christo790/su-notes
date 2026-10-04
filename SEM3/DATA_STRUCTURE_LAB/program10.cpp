@@ -1,3 +1,5 @@
+//Write a C++ program to implement Stack operations using arrays.
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
